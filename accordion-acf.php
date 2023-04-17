@@ -2,7 +2,7 @@
 
 <?php if( have_rows('faq') ): ?>
     <div class="accordion v1">
-    <?php while( have_rows('slides') ): the_row(); ?>
+    <?php while( have_rows('faq') ): the_row(); ?>
         <div class="a-container">
             <p class="a-btn"><?php the_sub_field('question'); ?><span></span></p>
             <div class="a-panel">
