@@ -32,6 +32,7 @@
     width: 14px;
     right: 20px;
     top: 18px;
+    pointer-events: none;
 }
 .accordion .a-container .a-btn span:after {
     content: '';
